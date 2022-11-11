@@ -1,0 +1,29 @@
+name: PrisonCore
+version: '${project.version}'
+main: me.thiboisweird.prisoncore.PrisonCore
+api-version: 1.18
+authors: [ ThiboIsEpic ]
+description: ???
+softdepend:
+  - ProtocolLib
+  - ProtocolSupport
+  - ViaVersion
+  - ViaBackwards
+  - ViaRewind
+  - Geyser-Spigot
+  - PlaceholderAPI
+commands:
+  vanish:
+    usage: /vanish
+    aliases: [ v ]
+    description: Toggle your vanish state
+#  mines:
+#    usage: /mines
+#    aliases: [ m ]
+#    description: Create mines
+  welcomehead:
+    usage: /welcomehead
+    aliases: [ wh ]
+  client:
+    usage: /client
+    aliases: [ c ]
