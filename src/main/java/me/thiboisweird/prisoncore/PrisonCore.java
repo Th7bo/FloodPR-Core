@@ -60,8 +60,6 @@ public final class PrisonCore extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(Misc.Color("&#ADF3FD&lꜰʟᴏᴏᴅ&#2AB7AB&lᴘʀ &8•&7 (&aConfig&7) &aLoading config(s)..."));
         saveDefaultConfig();
         getCommand("vanish").setExecutor(new VanishCMD());
-//        getCommand("tab").setExecutor(new TabCMD());
-//        getCommand("mines").setExecutor(new MinesCMD());
         getCommand("client").setExecutor(new ClientCMD());
 
         EventManager.startRandomEventRunnable();
