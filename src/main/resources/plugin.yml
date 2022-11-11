@@ -17,13 +17,6 @@ commands:
     usage: /vanish
     aliases: [ v ]
     description: Toggle your vanish state
-#  mines:
-#    usage: /mines
-#    aliases: [ m ]
-#    description: Create mines
-  welcomehead:
-    usage: /welcomehead
-    aliases: [ wh ]
   client:
     usage: /client
     aliases: [ c ]
