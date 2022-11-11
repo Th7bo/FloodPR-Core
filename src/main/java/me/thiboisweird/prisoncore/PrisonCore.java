@@ -21,12 +21,10 @@ import java.util.UUID;
 
 public final class PrisonCore extends JavaPlugin {
 
-    public static HashMap<Player, HashMap<String, Object>> minesSetupData = new HashMap<>();
 
     private static PrisonCore instance;
     private final boolean dev = this.getDescription().getVersion().endsWith("-dev");
     private final String version = this.getDescription().getVersion();
-    public static HashMap<Player, HashMap<String, Object>> playerData = new HashMap<>();
     public static HashMap<UUID, String> brands = new HashMap<>();
     public static HashMap<UUID, String> clients = new HashMap<>();
 
